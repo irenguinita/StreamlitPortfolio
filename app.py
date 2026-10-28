@@ -9,7 +9,7 @@ NAME = "Iren Nathaleigh L. Guinita"
 PROGRAM = "BS Computer Science · 3rd Year"
 SECTION = "CS365 | Applied AI - F2"
 LOCATION = "Cebu, Philippines"
-EMAIL = "guinitairen@example.com" 
+EMAIL = "guinitairen@gmail.com" 
 GITHUB = "https://github.com/irenguinita"  
 TAGLINE = "Call me Ren. I love learning, being challenged, and sitting at the intersection of things." 
 SHORT_ABOUT = "I'm a Junior Computer Science student who wants to build things that are meaningful and fun. I love looking for unique places to apply my skills, ones that require a mix of creativity, curiosity, logic, and people."
@@ -19,22 +19,20 @@ Hi! You can call me Ren. I'm a Junior Computer Science student from Cebu Institu
 INTERESTS = ["People", "Leadership", "Software Development", "Art and Humanities", "Sleeping", "Music", "Doom Scrolling"] 
 
 AUTOBIOGRAPHY = """
-I came from a little sleepy town on the way to the north of Cebu called Catmon. I grew up in the relative suburbs, always surrounded by the trees and plants my mom loved to take care of. I grew up as a shy child (but I'd like to think I grew out of that), and I was always curious about the world and the people around me. I loved observing people and their behavior and how things worked. I enjoyed Encarta Kids (iykyk), the Discovery and Natural Geographic channels, and the TV show Cats and Dogs 101 (give me a dog breed and little me could tell you all about them). I loved how those shows (and app) was my first gateway to learning and having things explained to me in a way that was fun and engaging and encouraged me to actually learn. I also loved watching that show with the magician who would explain how the magic tricks worked. I loved getting to see behind the curtains and seeing how things worked, and I think that curiosity has stayed with me to this day.
+I came from a little sleepy town on the way to the north of Cebu called Catmon. I grew up in the relative suburbs, always surrounded by the trees and plants my mom loved to take care of. I grew up as a shy child (but I'd like to think I grew out of that), and I was always curious about the world and the people around me. I loved observing people and their behavior and how things worked. I enjoyed Encarta Kids (iykyk), the Discovery and National Geographic channels, and the TV show Cats and Dogs 101 (give me a dog breed and little me could tell you all about them). I loved how those shows (and app) were my first gateway to learning and having things explained to me in a way that was fun and engaging and encouraged me to actually learn. I also loved watching that show with the magician who would explain how the magic tricks worked. I loved getting to see behind the curtains and seeing how things worked, and I think that curiosity has stayed with me to this day.
 
-I finished Elementary in the school that's right beside my house (I could hear the bell for the flag and that would be my cue that I needed to go). My high school was a little further a way (a 5 minute walk, it was quite a challenge, I needed to cross a river, climb a mountain, and brave the pack of dogs that for some reason still has not learned to recognize me (I'm not a threat, I promise)). The elementary was called Bagalnga Elementary School and my high school Gabriel Jurado Foundation School, Inc. (JHS) and Passionist Sisters' School (Catmon) Inc. (SHS).
+I finished Elementary in the school that's right beside my house (I could hear the bell for the flag and that would be my cue that I needed to go). My high school was a little further away (a 5 minute walk, it was quite a challenge, I needed to cross a river, climb a mountain, and brave the pack of dogs that for some reason still has not learned to recognize me (I'm not a threat, I promise)). The elementary was called Bagalnga Elementary School and my high school Gabriel Jurado Foundation School, Inc. (JHS) and Passionist Sisters' School (Catmon) Inc. (SHS).
 
 On a personal level, my interest lies more with the arts and humanities, but I also have a strong interest in software development especially in terms of where can I apply it in the former. Did you know that the first form of binary came from knitting? I think that that is a really interesting intersection of the two, and I would love to explore more of that. As a crocheter myself, I found that to be part of my inspiration to pursue Computer Science.
 """
 
-# Life line: (year, score from -5 low to +5 high, short title, what happened)
 LIFE = [ 
     (2006, 1, "Born", "I was born as a rainbow baby, very cool very nice probably very spoiled but I do not remember"),
-    (2012, 3, "Childhood high (TODO)", "TODO: what happened and why it mattered."),
-    (2015, -3, "A low point (TODO)", "TODO: what happened and what you learned."),
-    (2018, 2, "A turning point (TODO)", "TODO: what changed."),
-    (2021, -2, "Another dip (TODO)", "TODO: what happened."),
-    (2024, 4, "Started BS Computer Science", "TODO: why you chose CS."),
-    (2026, 3, "Junior year", "TODO: what you're working toward now."),
+    (2020, 3, "Pandemic", "Turned my life around, learned a lot of things"),
+    (2024, 4, "Graduated high school", "Graduated high school, got dream scholarship, excited for it all"),
+    (2024, -1, "Started college", "It was so different. Got challenged, questioned myself and my capabilities. Pushed through anyway."),
+    (2025, 1, "2nd Year College", "Got humbled by first year. Decided that college can have a little more fun. Had fun. Joined orgs. Made friends. (Almost got killed by DAA and DSA tho. Almost)"),
+    (2026, 5, "3rd Year", "Thriving. Joined competitions, joined more orgs, made friends, became actually interested in software development."),
 ]
 
 TECHNICAL = {"Python": 5, "Java": 7, "SQL": 7, "Project Management": 8, "Frontend Design": 6,}
@@ -48,7 +46,6 @@ PROJECTS = [
         "role": "Project Lead, Artist, Front-end, QA",
         "tools": ["Godot", "Aseprite"],
         "summary": "Pinoy Party is a multiplayer Godot 4 party game inspired by classic Filipino street games! Gather your friends, roll the dice on the virtual board, and compete in fast-paced minigames to see who will be crowned the ultimate champion.",
-        "outcome": "TODO: what was delivered and what you'd improve.",
         "link": "https://github.com/Zephyrdoestech/Pinoy-Party",
     },
     {
@@ -56,7 +53,7 @@ PROJECTS = [
         "course": "CSIT228 Object-Oriented Programming 2",
         "role": "Backend and Frontend developer, QA",
         "tools": ["Java"],
-        "summary": "Sir Serator Simulator is a high-stake arcade classroom management simulator game where you act as the iconic teacher, Sir Jay Vince Serato, proctoring a set of students that are taking your quizzes. Of course, being a teacher comes with its own set of problems. You must be vigilant in ensuring that your students do not attempt to cheat or else you will lose your patience and your sanity. ",
+        "summary": "Sir Serato Simulator is a high-stake arcade classroom management simulator game where you act as the iconic teacher, Sir Jay Vince Serato, proctoring a set of students that are taking your quizzes. Of course, being a teacher comes with its own set of problems. You must be vigilant in ensuring that your students do not attempt to cheat or else you will lose your patience and your sanity. ",
         "link": "https://github.com/binggbongg/CSIT228-Capstone-Sir-Jay-Simulator",
     },
     {
@@ -167,7 +164,7 @@ with st.sidebar:
     st.subheader(NAME)
     st.caption(f"{PROGRAM}\n\n{SECTION}")
     st.write(SHORT_ABOUT)
-    st.markdown(f"📍 {LOCATION}  \n📧 {EMAIL}  \n🔗 [GitHub]({GITHUB})")
+    st.markdown(f"📍{LOCATION}  \n📧 {EMAIL}  \n🔗 [GitHub]({GITHUB})")
     st.divider()
 
     st.subheader("Say hello")
@@ -209,7 +206,7 @@ with col_text:
 
 st.divider()
 
-tab_story, tab_skills, tab_projects = st.tabs(["📖 Autobiography", "🕸️ Skills", "🚀 Projects"])
+tab_story, tab_skills, tab_projects = st.tabs(["Autobiography", "Skills", "Projects"])
 
 with tab_story:
     st.header("My story")
