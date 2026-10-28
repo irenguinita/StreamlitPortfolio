@@ -14,21 +14,21 @@ GITHUB = "https://github.com/irenguinita"
 TAGLINE = "Call me Ren. I love learning, being challenged, and sitting at the intersection of things." 
 SHORT_ABOUT = "I'm a Junior Computer Science student who wants to build things that are meaningful and fun. I love looking for unique places to apply my skills, ones that require a mix of creativity, curiosity, logic, and people."
 BIO = """
-TODO: Write a few sentences in your own words. Who are you, what are you studying,
-and what kind of problems do you enjoy solving? This is your full "About" section.
-
-Hi! You can call me Ren. I'm a Junior Computer Science student from Cebu Institute of Technology - University. 
-
+Hi! You can call me Ren. I'm a Junior Computer Science student from Cebu Institute of Technology - University. I dabble in software development, leadership, arts and the humanities, and their intersections.
 """
-INTERESTS = ["People", "Leadership", "Fuzzy logic", "Data analysis", "Hackathons"]  # TODO
+INTERESTS = ["People", "Leadership", "Software Development", "Art and Humanities", "Sleeping", "Music", "Doom Scrolling"] 
 
 AUTOBIOGRAPHY = """
-TODO: Tell your story in your own words: where you come from, what shaped you,
-where you studied, what you love doing, and where you're headed. A few paragraphs is plenty.
+I came from a little sleepy town on the way to the north of Cebu called Catmon. I grew up in the relative suburbs, always surrounded by the trees and plants my mom loved to take care of. I grew up as a shy child (but I'd like to think I grew out of that), and I was always curious about the world and the people around me. I loved observing people and their behavior and how things worked. I enjoyed Encarta Kids (iykyk), the Discovery and Natural Geographic channels, and the TV show Cats and Dogs 101 (give me a dog breed and little me could tell you all about them). I loved how those shows (and app) was my first gateway to learning and having things explained to me in a way that was fun and engaging and encouraged me to actually learn. I also loved watching that show with the magician who would explain how the magic tricks worked. I loved getting to see behind the curtains and seeing how things worked, and I think that curiosity has stayed with me to this day.
+
+I finished Elementary in the school that's right beside my house (I could hear the bell for the flag and that would be my cue that I needed to go). My high school was a little further a way (a 5 minute walk, it was quite a challenge, I needed to cross a river, climb a mountain, and brave the pack of dogs that for some reason still has not learned to recognize me (I'm not a threat, I promise)). The elementary was called Bagalnga Elementary School and my high school Gabriel Jurado Foundation School, Inc. (JHS) and Passionist Sisters' School (Catmon) Inc. (SHS).
+
+On a personal level, my interest lies more with the arts and humanities, but I also have a strong interest in software development especially in terms of where can I apply it in the former. Did you know that the first form of binary came from knitting? I think that that is a really interesting intersection of the two, and I would love to explore more of that. As a crocheter myself, I found that to be part of my inspiration to pursue Computer Science.
 """
 
 # Life line: (year, score from -5 low to +5 high, short title, what happened)
-LIFE = [  # TODO: replace every row with your real highs and lows
+LIFE = [ 
+    (2006, 1, "Born", "I was born as a rainbow baby, very cool very nice probably very spoiled but I do not remember"),
     (2012, 3, "Childhood high (TODO)", "TODO: what happened and why it mattered."),
     (2015, -3, "A low point (TODO)", "TODO: what happened and what you learned."),
     (2018, 2, "A turning point (TODO)", "TODO: what changed."),
@@ -37,47 +37,38 @@ LIFE = [  # TODO: replace every row with your real highs and lows
     (2026, 3, "Junior year", "TODO: what you're working toward now."),
 ]
 
-# Skills are rated 0-10. Rename, add or remove skills freely (keep 4 or more per chart).
-TECHNICAL = {"Python": 7, "Java": 7, "SQL": 7, "C#": 5, "Web dev": 5, "Data analysis": 6}
-EVERYDAY = {"Communication": 7, "Time management": 5, "Teamwork": 8, "Problem solving": 7, "Adaptability": 6}
-NICHE = {"Crossing the street": 9, "Intuition": 7, "Eyesight": 3, "Music taste": 9, "Parallel parking": 4}  # TODO
+TECHNICAL = {"Python": 5, "Java": 7, "SQL": 7, "Project Management": 8, "Frontend Design": 6,}
+EVERYDAY = {"Communication": 5, "Time management": 3, "Teamwork": 9, "Problem solving": 8, "Adaptability": 10}
+NICHE = {"Crossing the street": 1, "Intuition": 10, "Eyesight": 2, "Music taste": 10, "Popculture knowledge": 6}  
 
-PROJECTS = [  # Edit the TODO parts to match what you actually did
+PROJECTS = [
     {
-        "title": "Blottr",
-        "emoji": "🗺️",
-        "course": "Information Management 2",
-        "role": "TODO: e.g. database designer and backend developer",
-        "tools": ["SQL", "Spatial database", "Python"],
-        "summary": "A spatial incident and crime blotter management platform for Cebu.",
+        "title": "Pinoy Party",
+        "course": "DOST ESports Challenge (Game Jam)",
+        "role": "Project Lead, Artist, Front-end, QA",
+        "tools": ["Godot", "Aseprite"],
+        "summary": "Pinoy Party is a multiplayer Godot 4 party game inspired by classic Filipino street games! Gather your friends, roll the dice on the virtual board, and compete in fast-paced minigames to see who will be crowned the ultimate champion.",
         "outcome": "TODO: what was delivered and what you'd improve.",
-        "link": "",
+        "link": "https://github.com/Zephyrdoestech/Pinoy-Party",
     },
     {
-        "title": "DFA to Java Programs",
-        "emoji": "🤖",
-        "course": "CS313 Automata Theory",
-        "role": "TODO: solo implementer",
-        "tools": ["Java", "DFA design"],
-        "summary": "Turned DFAs over {a, b} strings into working Java programs, using both switch-case and table-driven approaches.",
-        "outcome": "TODO: what you learned comparing the two approaches.",
-        "link": "",
+        "title": "Sir Serato Simulator",
+        "course": "CSIT228 Object-Oriented Programming 2",
+        "role": "Backend and Frontend developer, QA",
+        "tools": ["Java"],
+        "summary": "Sir Serator Simulator is a high-stake arcade classroom management simulator game where you act as the iconic teacher, Sir Jay Vince Serato, proctoring a set of students that are taking your quizzes. Of course, being a teacher comes with its own set of problems. You must be vigilant in ensuring that your students do not attempt to cheat or else you will lose your patience and your sanity. ",
+        "link": "https://github.com/binggbongg/CSIT228-Capstone-Sir-Jay-Simulator",
     },
     {
-        "title": "Automated Test Report Generator",
-        "emoji": "📊",
-        "course": "Knowles Hackathon",
-        "role": "TODO: your role on the team",
-        "tools": ["Python", "Pandas", "Reporting"],
-        "summary": "Hackathon track for the QA department: generating historical test performance reports automatically.",
-        "outcome": "TODO: the result of the hackathon.",
-        "link": "",
+        "title": "TaraTeknoy",
+        "course": "Mobile Development",
+        "role": "Full stack developer, QA",
+        "tools": ["Kotlin"],
+        "summary": "A centralized Android application for campus event discovery and management for Technologians",
+        "link": "https://github.com/irenguinita/tarateknoy",
     },
 ]
 
-# =====================================================================
-# Palette (centered on #3C0932) and page setup
-# =====================================================================
 PLUM = "#3C0932"
 PLUM_MID = "#7A3B6B"
 ROSE = "#B5779F"
@@ -171,10 +162,6 @@ def radar(title, data, line, fill):
     )
     return fig
 
-
-# =====================================================================
-# Sidebar: short about + contact form
-# =====================================================================
 with st.sidebar:
     st.image(get_photo(), use_container_width=True)
     st.subheader(NAME)
@@ -206,9 +193,6 @@ with st.sidebar:
     if st.session_state.messages:
         st.caption(f"Messages sent this session: {len(st.session_state.messages)}")
 
-# =====================================================================
-# Top: full About (static)
-# =====================================================================
 col_photo, col_text = st.columns([1, 2.2], gap="large")
 with col_photo:
     st.image(get_photo())
@@ -227,9 +211,6 @@ st.divider()
 
 tab_story, tab_skills, tab_projects = st.tabs(["📖 Autobiography", "🕸️ Skills", "🚀 Projects"])
 
-# =====================================================================
-# Autobiography with a life-line chart (ups and downs)
-# =====================================================================
 with tab_story:
     st.header("My story")
     st.markdown(AUTOBIOGRAPHY)
@@ -275,9 +256,6 @@ with tab_story:
         st.markdown(f"**{years[idx]} · {titles[idx]}**")
         st.write(descs[idx])
 
-# =====================================================================
-# Skills: three spider charts
-# =====================================================================
 with tab_skills:
     st.header("Skills")
     st.write("Rated honestly by me, from 0 to 10. Hover over a point to see its score.")
@@ -290,7 +268,7 @@ with tab_skills:
         st.plotly_chart(radar("Everyday", EVERYDAY, PLUM_MID, "rgba(122,59,107,0.25)"))
         st.caption(f"Strongest: **{max(EVERYDAY, key=EVERYDAY.get)}**")
     with c3:
-        st.plotly_chart(radar("Niche", NICHE, ROSE, "rgba(181,119,159,0.30)"))
+        st.plotly_chart(radar("Personal", NICHE, ROSE, "rgba(181,119,159,0.30)"))
         st.caption(f"Strongest: **{max(NICHE, key=NICHE.get)}**")
 
     all_skills = pd.DataFrame(
@@ -308,9 +286,6 @@ with tab_skills:
         mime="text/csv",
     )
 
-# =====================================================================
-# Projects
-# =====================================================================
 with tab_projects:
     st.header("Projects")
     all_tools = sorted({t for p in PROJECTS for t in p["tools"]})
@@ -323,12 +298,11 @@ with tab_projects:
     for col, p in zip(cols, shown):
         with col:
             with st.container(border=True):
-                st.subheader(f"{p['emoji']} {p['title']}")
+                st.subheader(f"{p['title']}")
                 st.caption(p["course"])
                 st.write(p["summary"])
                 st.markdown(f"**Role:** {p['role']}")
                 st.markdown("**Tools:** " + ", ".join(f"`{t}`" for t in p["tools"]))
-                st.markdown(f"**Outcome:** {p['outcome']}")
                 if p["link"]:
                     st.link_button("View project", p["link"])
 
